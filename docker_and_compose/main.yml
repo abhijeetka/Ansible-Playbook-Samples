@@ -1,6 +1,6 @@
 ---
 - name: Install Docker and Docker Compose on CentOS
-  hosts: '{{ host }}'
+  hosts: web
   become: true
 
   tasks:
